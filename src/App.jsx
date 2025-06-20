@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AnimatedBackground from './components/AnimatedBackground';
+import pic from './components/pic.jpeg';
 import './App.css';
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
         
         <div className="text-center px-4 z-10 relative">
           <motion.div 
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 relative"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 relative -mt-25"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
@@ -109,15 +110,12 @@ function App() {
                   transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
                 />
                 
-                <motion.div 
-                  className="text-white text-3xl md:text-4xl font-bold z-10"
-                  animate={{
-                    textShadow: ['0 0 8px rgba(255,255,255,0.5)', '0 0 16px rgba(255,255,255,0.8)', '0 0 8px rgba(255,255,255,0.5)'],
-                  }}
-                  transition={{ duration: 3, repeat: Infinity }}
-                >
-                  SS
-                </motion.div>
+                <img 
+                  src={pic} 
+                  alt="Sharanya Singhal" 
+                  className="w-full h-full object-cover rounded-full z-10" 
+                  style={{ position: 'sticky' }}
+                />
               </div>
             </motion.div>
           </motion.div>
