@@ -47,9 +47,9 @@ const Projects = () => {
               </div>
               <div className="p-6">
                 <p className="text-gray-300 mb-4">{project.description}</p>
-                <div className="mb-4">
+                <div className="mb-4 text-center">
                   <h4 className="text-lg font-semibold text-white mb-2">Technologies Used:</h4>
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 justify-center">
                     {project.technologies.map((tech, techIndex) => (
                       <span 
                         key={techIndex} 
