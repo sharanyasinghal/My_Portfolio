@@ -54,5 +54,7 @@ cd sharanya-Portfolio
 - **LinkedIn:** [Your LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sharanya-singhal-92abb129a/))
 
 ```
+
 Author
+
 Sharanya Singhal
