@@ -131,7 +131,7 @@ function App() {
             Hi, I'm <span className="relative inline-block">
               <span className="relative z-10 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500">Sharanya Singhal</span>
               <motion.span 
-                className="absolute bottom-0 left-0 w-full h-3 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 opacity-30 -z-10"
+                className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 opacity-30 -z-10"
                 initial={{ width: 0 }}
                 animate={{ width: '100%' }}
                 transition={{ duration: 0.8, delay: 1 }}
@@ -145,7 +145,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            First-year Engineering Student & Web Developer
+            Pre Final-year Engineering Student & Web Developer 
           </motion.p>
           
           <motion.div 
@@ -154,7 +154,7 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.7 }}
           >
-            {['React', 'JavaScript', 'Tailwind CSS', 'Node.js'].map((skill, index) => (
+            {['React', 'JavaScript', 'Tailwind CSS', 'Node.js','UI/UX','Figma'].map((skill, index) => (
               <motion.span 
                 key={index}
                 className="px-3 py-1 rounded-full text-sm font-medium bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 border border-blue-500/30"
