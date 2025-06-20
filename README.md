@@ -1,12 +1,39 @@
-# React + Vite
+# My_Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **My_Portfolio**! This repository showcases my personal and professional journey as a developer, featuring projects, skills, and experiences that define my growth in the tech industry.
 
-Currently, two official plugins are available:
+## 🌟 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hi! I'm Sharanya Singhal, a passionate developer who enjoys building impactful software solutions and exploring new technologies. This portfolio is a living document of my work, learning, and achievements.
 
-## Expanding the ESLint configuration
+## 🚀 Projects
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Here are some highlights of the projects included in this portfolio:
+
+- **Identity Reconciliation** Built a project on identity reconciliation that matches and merges duplicate or related records across datasets to ensure accurate and unified identity resolution.
+- **Medicine Suggestor** Developed a web-based tool that suggests appropriate medicines based on user-input symptoms, aiming to provide basic healthcare guidance in the absence of immediate medical consultation.
+- - **Algorithm Visualizer** Developed an interactive algorithm visualizer for DSA and DAA concepts, enabling real-time visualization of algorithm execution through dynamic and intuitive animations.
+
+*Add more projects as needed, each with a brief summary and links if available.*
+
+## 🛠️ Technologies & Tools
+
+- [List your primary programming languages, frameworks, and tools here, such as:]
+  - HTML, CSS, JavaScript
+  - React, Node.js
+  - Python, Django
+  - Git & GitHub
+  - UI/UX (Figma , Canva)
+
+## 🎯 Goals
+
+- To continuously learn and apply new technologies.
+- To contribute to open-source projects and collaborate with the community.
+- To create software that solves real-world problems.
+
+## 📬 Contact
+
+- **Email:** [sharanya2005singhal@example.com]
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+
+
