@@ -30,8 +30,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>&copy; {new Date().getFullYear()} Sharanya Singhal. All rights reserved.</p>
-          <p className="mt-2 text-sm">Made with ❤️ using React and Tailwind CSS</p>
+          <p>&copy; {new Date().getFullYear()} Sharanya Singhal. All rights reserved.</p> 
         </div>
       </div>
     </footer>
