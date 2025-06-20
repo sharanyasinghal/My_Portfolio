@@ -2,13 +2,14 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', level: 90, color: 'from-orange-500 to-red-500' },
-    { name: 'CSS', level: 85, color: 'from-blue-400 to-blue-600' },
+    { name: 'HTML', level: 95, color: 'from-orange-500 to-red-500' },
+    { name: 'CSS', level: 90, color: 'from-blue-400 to-blue-600' },
     { name: 'JavaScript', level: 80, color: 'from-yellow-400 to-yellow-600' },
     { name: 'React', level: 75, color: 'from-cyan-400 to-cyan-600' },
-    { name: 'Tailwind CSS', level: 85, color: 'from-teal-400 to-teal-600' },
-    { name: 'C++', level: 70, color: 'from-purple-400 to-purple-600' },
-    { name: 'Python', level: 75, color: 'from-green-400 to-green-600' },
+    { name: 'Tailwind CSS', level: 75, color: 'from-teal-400 to-teal-600' },
+    { name: 'C++', level: 85, color: 'from-purple-400 to-purple-600' },
+    { name: 'Python', level: 85, color: 'from-green-400 to-green-600' },
+    { name: 'UI/UX', level: 95, color: 'from-pink-400 to-pink-600' },
   ];
 
   return (
@@ -35,7 +36,7 @@ const Skills = () => {
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold text-white mb-6">Other Technologies & Tools</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['Git', 'GitHub', 'VS Code', 'npm', 'Figma', 'Responsive Design', 'RESTful APIs'].map((tech, index) => (
+            {['Git', 'GitHub', 'VS Code', 'NPM', 'Figma', 'Canva','Adobe Illustrator','Responsive Design', 'RESTful APIs'].map((tech, index) => (
               <span 
                 key={index} 
                 className="px-4 py-2 bg-gray-800 text-gray-300 rounded-full border border-gray-700 hover:border-blue-500 transition-all duration-300"
