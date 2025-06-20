@@ -34,6 +34,6 @@ Here are some highlights of the projects included in this portfolio:
 ## 📬 Contact
 
 - **Email:** [sharanya2005singhal@example.com]
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- **LinkedIn:** [Your LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sharanya-singhal-92abb129a/))
 
 
