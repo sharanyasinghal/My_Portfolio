@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
+import pic from './pic.jpeg';
 
 const About = () => {
   const containerRef = useRef(null);
@@ -144,16 +145,13 @@ const About = () => {
                     />
                   ))}
                   
-                  {/* Initials */}
-                  <motion.div 
-                    className="text-white text-6xl font-bold z-10"
-                    animate={{
-                      textShadow: ['0 0 8px rgba(255,255,255,0.5)', '0 0 16px rgba(255,255,255,0.8)', '0 0 8px rgba(255,255,255,0.5)'],
-                    }}
-                    transition={{ duration: 3, repeat: Infinity }}
-                  >
-                    SS
-                  </motion.div>
+                  {/* Initials replaced with user photo */}
+                  <img 
+                    src={pic} 
+                    alt="Sharanya Singhal" 
+                    className="w-full h-full object-cover rounded-full z-10" 
+                    style={{ position: 'relative' }}
+                  />
                 </div>
               </motion.div>
               
@@ -207,7 +205,7 @@ const About = () => {
               </motion.p>
               
               <motion.div 
-                className="mt-8 flex flex-wrap gap-3"
+                className="mt-8 flex flex-wrap gap-3 justify-center"
                 variants={itemVariants}
               >
                 {['Creative', 'Problem Solver', 'Tech Enthusiast', 'Continuous Learner'].map((tag, index) => (
