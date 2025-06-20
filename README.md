@@ -1,39 +1,58 @@
-# My_Portfolio
+# Personal Portfolio Website
 
-Welcome to **My_Portfolio**! This repository showcases my personal and professional journey as a developer, featuring projects, skills, and experiences that define my growth in the tech industry.
+A responsive and modern portfolio website showcasing my projects, skills, and professional profile.  
+Designed to highlight my work in software development, UI/UX design, and other technical domains.
 
-## 🌟 About Me
 
-Hi! I'm Sharanya Singhal, a passionate developer who enjoys building impactful software solutions and exploring new technologies. This portfolio is a living document of my work, learning, and achievements.
+---
 
-## 🚀 Projects
+## 🚀 Features
+- Showcases key projects with links to GitHub repositories
+- Clean and modern user interface with smooth navigation
+- Responsive design that works on desktop, tablet, and mobile devices
+- Includes contact information and social media links
 
-Here are some highlights of the projects included in this portfolio:
+---
 
-- **Identity Reconciliation** Built a project on identity reconciliation that matches and merges duplicate or related records across datasets to ensure accurate and unified identity resolution.
-- **Medicine Suggestor** Developed a web-based tool that suggests appropriate medicines based on user-input symptoms, aiming to provide basic healthcare guidance in the absence of immediate medical consultation.
-- - **Algorithm Visualizer** Developed an interactive algorithm visualizer for DSA and DAA concepts, enabling real-time visualization of algorithm execution through dynamic and intuitive animations.
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
+- UI/UX Design Principles
 
-*Add more projects as needed, each with a brief summary and links if available.*
+---
 
-## 🛠️ Technologies & Tools
+## 📂 Project Structure
+/src
+├── index.html
+├── style.css
+├── script.js
+/assets
+└── pic.jpeg
+README.md
 
-- [List your primary programming languages, frameworks, and tools here, such as:]
-  - HTML, CSS, JavaScript
-  - React, Node.js
-  - Python, Django
-  - Git & GitHub
-  - UI/UX (Figma , Canva)
+yaml
+Copy
+Edit
 
-## 🎯 Goals
+---
 
-- To continuously learn and apply new technologies.
-- To contribute to open-source projects and collaborate with the community.
-- To create software that solves real-world problems.
+## 💻 How to Run
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/sharanyasinghal/sharanya-Portfolio.git
+2️⃣ Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd sharanya-Portfolio
 
 ## 📬 Contact
 
 - **Email:** [sharanya2005singhal@example.com]
 - **LinkedIn:** [Your LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sharanya-singhal-92abb129a/))
 
-
+```
+Author
+Sharanya Singhal
