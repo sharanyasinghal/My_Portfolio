@@ -53,9 +53,8 @@ cd sharanya-Portfolio
 - **Email:** [sharanya2005singhal@example.com]
 - **LinkedIn:** [Your LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/sharanya-singhal-92abb129a/))
 ---
-
 ```
-
-#Author
-
+## Author
 Sharanya Singhal
+
+---
